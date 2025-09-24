@@ -7,13 +7,14 @@ public static void main (String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		
 		System.out.println("Informe sua agência");
-		String agencia = scanner.next ();
+		String agencia = scanner.nextLine ();
 		
 		System.out.println("Informe sua conta bancária");
 		int conta = scanner.nextInt ();
+		scanner.nextLine();
 		
 		System.out.println("Infome seu nome");
-		String nome = scanner.next();
+		String nome = scanner.nextLine();
 		
 		System.out.println("Informe seu saldo");
 		Double saldo = scanner.nextDouble();
